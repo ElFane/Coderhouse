@@ -1,0 +1,183 @@
+/* ---------- Header -----------*/
+
+
+.header{
+    background-color: whitesmoke;
+    }
+
+.logoClass{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 4rem;
+    margin:0;
+    }
+
+.barraNAV li{
+    font-size: 2rem;
+
+}
+
+.barraNAV ul{
+    font-family: 'Architects Daughter', cursive;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    }
+
+.barraNAV a{
+    text-decoration: none;
+    color: black;    
+    
+}
+/*Titulos de las secciones de la pagina*/
+
+.tituloPagina{
+    font-family: 'Outfit', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/*----------- Body (index.html) -----------------------------------------*/
+
+.article{
+    margin-top: 1%;
+    display: inline;
+    
+    }
+
+
+.father img{
+    width: 30%;
+    height: 30%;
+    display: inline;
+    margin-left: 33%;
+    
+
+}
+.aside2{
+    display: inline;
+    text-align: center;
+
+}
+
+.aside1{
+    display: inline;
+    text-align: center;
+}
+
+.article h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.article h3{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.aside1 h2{
+
+    font-family: 'Outfil', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.aside2 h2{
+    font-family: 'Outfil', sans-serif;
+    font-size: 1.3rem;
+}
+
+/*---- Body (productos.html) ----*/
+
+.productos{
+    display: inline-block;
+    margin-left: 15%;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+/*---- Body (about.html) ----*/
+
+
+.aboutSection{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.aboutImage{
+    width: 20%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.aboutP{
+    text-align: justify;
+}
+
+
+/*---- Body (contacto.html) ----*/
+.form{
+    font-family: 'Outfit', sans-serif;
+    color: red;
+    font-size: 1.1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: left; 
+}
+
+fieldset{
+    border: 3px ridge red;
+}
+.botonForm{
+    text-align: center;
+    font-size: 1.3rem;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    margin-top: 1%;
+    }
+
+
+/* ----Footer -------*/
+footer{
+    margin-top: 1%;
+    background-color: black;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+
+.nuestrosClientes{
+
+    color: white;
+
+}
+.socialMedia{
+    color:white;
+    text-align: center;
+    
+}
+.Copyright{
+    color: white;
+    text-align-last: right;
+    }
+

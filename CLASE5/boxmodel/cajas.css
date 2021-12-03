@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.rojo{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+    position:relative;
+        top:20px;
+        left:50px;
+}
+
+.verde{
+    background-color: green;
+}
+
+.cajita{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+        top:50px;
+        left:50px;
+}
+
+.scrol{
+    background-color: aliceblue;
+    width: 300px;
+    height: 700px;
+}

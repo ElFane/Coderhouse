@@ -1,0 +1,39 @@
+CONSIGNA AFTER CLASS CLASE 2:
+
+1. Crear una carpeta nueva llamada AfterClass
+2. Crear una página web nueva, llamada index.html en la carpeta correspondiente.
+3. Tiene que tener un title que diga "Sucubelles" y un emogi🌱.
+
+Estructura:
+
+I. HEADER: con título subtitulo y logo
+--------------------------------------------------------------------------------------------------------------------------------------
+II. MAIN con 4 sections:
+	1. Section1: Insertar el Texto descriptivo 1 (está en la parte final de éste instructivo)
+	2. Section2: Insertar Alguna imagen (hay 3 en la carpeta) de 500 px de ancho
+	3. Section3: Insertar Lista 1 y Lista 2 y línea divisoria.
+	4. Section1: Insertar tabla que diga lo siguiente:
+--------------------------------------------------------------------------------------------------------------------------------------
+ACA VA LA TABLA (Ver archivo Word)
+--------------------------------------------------------------------------------------------------------------------------------------
+III. Agregar una section con un formulario de contacto básico.
+--------------------------------------------------------------------------------------------------------------------------------------
+IV. Un Footer que contenga un correo electrónico con un ícono y el teléfono con un ícono también (se pueden poner emojies)
+--------------------------------------------------------------------------------------------------------------------------------------
+
+TEXTO 1:
+De unos años a la fecha se ha venido extendiendo por gran parte del mundo la moda de las llamadas "plantas suculentas" y sí como lo dice su nombre son plantas que se caracterizan por tener la apariencia de estar muy "carnosas", pero esto se debe a que ellas almacenan agua en su interior, tanto en sus tallos como en sus hojas. Este líquido que ellas almacenan les permiten crecer en ambientes difíciles poco acceso a agua y nutrientes. Son originarias de ambientes muy cálidos, semi desiertos, regiones montañosas, bosques y hasta selvas ¿Habías escuchado hablar de ellas?
+
+Lista 1:
+Necesidades básicas
+* Luz: la gran mayoría de suculentas necesitan de grandes cantidades de luz solar, incluso directa.
+* Tierra: no son plantas exigentes con los nutrientes, así que solo necesitan un buen drenaje.
+* Riego: no toleran los excesos de riego ni los encharcamientos.
+
+Lista 2: 
+Guía para el cuidado:
+1. Elije especies de interior
+2. Darles mucha luz.
+3. Macetas con buen drenaje
+4. Rotarlas
+5. Controlar la temperatura

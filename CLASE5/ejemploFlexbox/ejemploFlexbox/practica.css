@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: 250px;
+    height: 150px;
+    opacity: .5;
+    border: 2px double grey
+}
+main{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+img:hover{
+    opacity: 1;
+    border: solid white 2px;
+    
+}
