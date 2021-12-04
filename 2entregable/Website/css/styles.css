@@ -29,10 +29,15 @@
     margin-left: 5%;
     }
 
+
 .barraNAV a{
     text-decoration: none;
     color: black;    
-    
+}
+
+.barraNAV :hover{
+    color:blue;
+    text-shadow: black 1px 1px ;
 }
 /*Titulos de las secciones de la pagina*/
 
@@ -181,3 +186,29 @@ footer{
     text-align-last: right;
     }
 
+/* Media Queries - Mobile Style*/
+
+@media only screen and (max-width: 400px){
+
+    .barraNAV ul{
+        font-family: 'Architects Daughter', cursive;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 5%;
+        margin-left: 5%;
+        }
+
+        .form{
+            font-family: 'Outfit', sans-serif;
+            color: red;
+            font-size: 1.1rem;
+            margin-left: 5%;
+            margin-right: 5%;
+            text-align: left; 
+        }
+}
