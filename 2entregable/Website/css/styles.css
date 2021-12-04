@@ -211,4 +211,26 @@ footer{
             margin-right: 5%;
             text-align: left; 
         }
+
+        footer{
+            margin-top: 1%;
+            background-color: black;
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            text-align: center;
+            }
+        
+        .socialMedia table{
+            margin-left: 15%;
+            
+        }
+
+        .Copyright{
+            text-align: center;
+            margin-right: 10%;
+        }
+
 }
