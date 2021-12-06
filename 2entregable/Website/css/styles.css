@@ -100,15 +100,46 @@
 
 /*---- Body (productos.html) ----*/
 
-.productos{
-    display: inline-block;
-    margin-left: 15%;
-    width: 200px;
-    height: 200px;
+
+.contenedorPadre{
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 2fr 1fr 1f;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas:
+    "encabezadoGrilla encabezadoGrilla encabezadoGrilla"
+    "producto_1 producto_2 producto_3"
+    "producto_4 producto_5 producto_6";
+    align-items: center;
+    }
+
+.encabezadoGrilla{
+    grid-area: encabezadoGrilla;
 }
 
+.producto_1{
+    grid-area: producto_1;
+}
 
+.producto_2{
+    grid-area: producto_2;
+}
 
+.producto_3{
+    grid-area: producto_3;
+}
+
+.producto_4{
+    grid-area: producto_4;
+}
+.producto_5{
+    grid-area: producto_5;
+}
+.producto_6{
+    grid-area: producto_6;
+}
 
 
 /*---- Body (about.html) ----*/
@@ -233,4 +264,4 @@ footer{
             margin-right: 10%;
         }
 
-}
+    }
