@@ -1,22 +1,20 @@
 /* ---------- Header -----------*/
 
-
-.header{
+.header {
     background-color: whitesmoke;
-    }
-
-.logoClass{
-    font-family: 'Libre Barcode 39 Text', cursive;
-    font-size: 4rem;
-    margin:0;
-    }
-
-.barraNAV li{
-    font-size: 2rem;
-
 }
 
-.barraNAV ul{
+.logoClass {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.barraNAV li {
+    font-size: 2rem;
+}
+
+.barraNAV ul {
     font-family: 'Architects Daughter', cursive;
     list-style-type: none;
     display: flex;
@@ -27,125 +25,118 @@
     align-items: center;
     margin-right: 5%;
     margin-left: 5%;
-    }
+}
 
-
-.barraNAV a{
+.barraNAV a {
     text-decoration: none;
-    color: black;    
+    color: black;
 }
 
-.barraNAV :hover{
-    color:blue;
-    text-shadow: black 1px 1px ;
+.barraNAV :hover {
+    color: blue;
+    text-shadow: black 1px 1px;
 }
+
+
 /*Titulos de las secciones de la pagina*/
 
-.tituloPagina{
+.tituloPagina {
     font-family: 'Outfit', sans-serif;
     background-color: black;
     color: white;
     text-align: center;
-    margin: 0;
 }
+
 
 /*----------- Body (index.html) -----------------------------------------*/
 
-.article{
+.article {
     margin-top: 1%;
-    display: inline;
-    
-    }
+}
 
-
-.father img{
+.father img {
     width: 30%;
     height: 30%;
-    display: inline;
     margin-left: 33%;
-    
-
-}
-.aside2{
-    display: inline;
-    text-align: center;
-
 }
 
-.aside1{
-    display: inline;
+.aside2 {
     text-align: center;
 }
 
-.article h2{
+.aside1 {
+    text-align: center;
+}
+
+.article h2 {
     font-family: 'Outfit', sans-serif;
     font-size: 2rem;
     text-align: center;
 }
-.article h3{
+
+.article h3 {
     font-family: 'Outfit', sans-serif;
     font-size: 1.4rem;
     text-align: center;
 }
-.aside1 h2{
 
+.aside1 h2 {
     font-family: 'Outfil', sans-serif;
     font-size: 1.2rem;
     text-align: center;
 }
-.aside2 h2{
+
+.aside2 h2 {
     font-family: 'Outfil', sans-serif;
     font-size: 1.3rem;
 }
 
+
 /*---- Body (productos.html) ----*/
 
-
-.contenedorPadre{
+.contenedorPadre {
     display: grid;
     height: auto;
-    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr 1fr 1f;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    grid-template-areas:
-    "encabezadoGrilla encabezadoGrilla encabezadoGrilla"
-    "producto_1 producto_2 producto_3"
-    "producto_4 producto_5 producto_6";
+    grid-template-areas: "encabezadoGrilla encabezadoGrilla encabezadoGrilla" "producto_1 producto_2 producto_3" "producto_4 producto_5 producto_6";
     align-items: center;
-    }
+}
 
-.encabezadoGrilla{
+.encabezadoGrilla {
     grid-area: encabezadoGrilla;
 }
 
-.producto_1{
+.producto_1 {
     grid-area: producto_1;
 }
 
-.producto_2{
+.producto_2 {
     grid-area: producto_2;
 }
 
-.producto_3{
+.producto_3 {
     grid-area: producto_3;
 }
 
-.producto_4{
+.producto_4 {
     grid-area: producto_4;
 }
-.producto_5{
+
+.producto_5 {
     grid-area: producto_5;
 }
-.producto_6{
+
+.producto_6 {
     grid-area: producto_6;
 }
 
 
 /*---- Body (about.html) ----*/
 
-
-.aboutSection{
+.aboutSection {
     font-family: 'Outfit', sans-serif;
     display: flex;
     align-items: center;
@@ -153,46 +144,48 @@
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-evenly;
-    
 }
 
-.aboutImage{
+.aboutImage {
     width: 20%;
     height: 20%;
     margin-top: 5%;
     margin-left: 20%;
 }
 
-.aboutP{
+.aboutP {
     text-align: justify;
 }
 
 
 /*---- Body (contacto.html) ----*/
-.form{
+
+.form {
     font-family: 'Outfit', sans-serif;
     color: red;
     font-size: 1.1rem;
     margin-left: 30%;
     margin-right: 30%;
-    text-align: left; 
+    text-align: left;
 }
 
-fieldset{
+fieldset {
     border: 3px ridge red;
 }
-.botonForm{
+
+.botonForm {
     text-align: center;
     font-size: 1.3rem;
     color: red;
     text-shadow: 1px 1px 1px black;
     background-color: black;
     margin-top: 1%;
-    }
+}
 
 
 /* ----Footer -------*/
-footer{
+
+footer {
     margin-top: 1%;
     background-color: black;
     font-family: 'Outfit', sans-serif;
@@ -200,28 +193,27 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    }
+}
 
-.nuestrosClientes{
-
+.nuestrosClientes {
     color: white;
+}
 
-}
-.socialMedia{
-    color:white;
+.socialMedia {
+    color: white;
     text-align: center;
-    
 }
-.Copyright{
+
+.Copyright {
     color: white;
     text-align-last: right;
-    }
+}
+
 
 /* Media Queries - Mobile Style*/
 
-@media only screen and (max-width: 720px){
-
-    .barraNAV ul{
+@media only screen and (max-width: 720px) {
+    .barraNAV ul {
         font-family: 'Architects Daughter', cursive;
         list-style-type: none;
         display: flex;
@@ -232,36 +224,63 @@ footer{
         align-items: center;
         margin-right: 5%;
         margin-left: 5%;
-        }
-
-        .form{
-            font-family: 'Outfit', sans-serif;
-            color: red;
-            font-size: 1.1rem;
-            margin-left: 5%;
-            margin-right: 5%;
-            text-align: left; 
-        }
-
-        footer{
-            margin-top: 1%;
-            background-color: black;
-            font-family: 'Outfit', sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            flex-wrap: nowrap;
-            text-align: center;
-            }
-        
-        .socialMedia table{
-            margin-left: 15%;
-            
-        }
-
-        .Copyright{
-            text-align: center;
-            margin-right: 10%;
-        }
-
     }
+    .form {
+        font-family: 'Outfit', sans-serif;
+        color: red;
+        font-size: 1.1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+    }
+    footer {
+        margin-top: 1%;
+        background-color: black;
+        font-family: 'Outfit', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+    .socialMedia table {
+        margin-left: 15%;
+    }
+    .Copyright {
+        text-align: center;
+        margin-right: 10%;
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.4fr 2fr 2fr 0.4fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas: "header_grid header_grid" "principal_grid ultimos_lanzamientos" "principal_grid promociones" "footer_grid footer_grid";
+    height: 92vh;
+}
+
+.header_grid {
+    grid-area: header_grid;
+}
+
+.principal_grid {
+    grid-area: principal_grid;
+    border: 1px red solid;
+}
+
+.ultimos_lanzamientos {
+    grid-area: ultimos_lanzamientos;
+    border: 1px green solid;
+}
+
+.promociones {
+    grid-area: promociones;
+    border: 1px blue solid;
+}
+
+.footer_grid {
+    grid-area: footer_grid;
+}

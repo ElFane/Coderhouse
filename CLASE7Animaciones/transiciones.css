@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.tran1{
+    background-color: royalblue;
+    transition: all 2s ease;
+
+}
+
+.tran1:hover{
+    width: 300px;
+    background-color: lime;
+}
+.tran2{
+    background-color: royalblue;
+    transition: all 2s ease;
+}
+.tran2:hover{
+    background-color: blueviolet;
+    transform: scale(1.3, 1.3);
+
+}
+
+.tran3{
+
+}
+.tran3:hover{
+
+}
+
+.tran4{
+
+}
+.tran4:hover{
+
+}
