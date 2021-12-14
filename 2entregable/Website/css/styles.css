@@ -256,10 +256,13 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.4fr 2fr 2fr 0.4fr;
-    gap: 10px 10px;
-    grid-auto-flow: row;
+    gap: 10 px 10 px;
     grid-template-areas: "header_grid header_grid" "principal_grid ultimos_lanzamientos" "principal_grid promociones" "footer_grid footer_grid";
-    height: 92vh;
+    height: 92 vh;
+    align-items: stretch;
+    justify-items: stretch;
+    justify-content: start;
+    align-content: center;
 }
 
 .header_grid {
