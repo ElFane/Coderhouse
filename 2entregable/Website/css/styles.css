@@ -290,7 +290,7 @@ footer {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr 1fr;
     gap: 10 px 10 px;
     grid-template-areas: 
     "principal_grid"
@@ -304,5 +304,21 @@ footer {
     justify-content: start;
     align-content: center;
 }
+.contenedorPadre {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.01fr repeat(5, 0.7fr);
+    grid-row-gap: 1px;
+    grid-template-areas: 
+    "encabezadoGrilla"
+    "producto_1"
+    "producto_2"
+    "producto_3"
+    "producto_4"
+    "producto_5"
+    "producto_6";
+    align-content: center;
+}
+
 
 }
