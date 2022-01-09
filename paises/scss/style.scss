@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    opacity: 0.92;
+    border: 4px solid black;
+}
+div:hover{
+    opacity: 1;
+}
+
+// Declaracion MAPA
+$paises: (
+
+        canada: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 27%, rgba(255,0,0,1) 48%, rgba(255,255,255,1) 71%, rgba(255,0,0,1) 100%),
+        rusia: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,23,255,1) 50%, rgba(255,0,0,1) 100%),
+        argentina: linear-gradient(180deg, rgba(0,177,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,254,158,1) 50%, rgba(255,255,255,1) 60%, rgba(0,177,255,1) 100%),
+        brasil: linear-gradient(180deg, rgba(0,255,50,1) 0%, rgba(255,252,0,1) 40%, rgba(255,252,0,1) 60%, rgba(0,255,50,1) 100%),
+        australia: linear-gradient(0deg, rgba(0,70,255,1) 0%, rgba(250,250,250,1) 27%, rgba(254,209,209,1) 49%, rgba(255,255,255,1) 68%, rgba(0,70,255,1) 100%),
+        japon: radial-gradient(circle, rgba(255,0,0,1) 4%, rgba(255,255,255,1) 46%, rgba(255,255,255,1) 100%)
+);  
+
+$Fonts: (
+    titulo: 'Spline Sans',
+    titulo_size: 4.3rem,
+    texto: 'Karla',
+    texto_size: 1.1rem,
+    centro: center,
+    justificado: justify,
+);
+
+
+
+h1 {
+    font-family:  map-get($Fonts, titulo);
+    font-size: map-get($Fonts, titulo_size);
+    text-align: map-get($Fonts, centro);
+};
+
+h2{
+    font-family: map-get($Fonts, texto);
+    font-size: map-get($Fonts, titulo_size);
+    text-align: map-get($Fonts, centro);
+};
+
+p{
+    font-family: map-get($Fonts, titulo);
+    text-align: map-get($Fonts, justificado);
+    font-size: map-get($Fonts, texto_size)
+};
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    border: 1px black solid;
+    gap: 4px;
+    }
+
+//// extend .argentina--borde
+.argentina{
+    p:hover{
+        color:red;
+    };    
+}
+
+.argentina--borde{
+    @extend .argentina;
+    border: 10px solid black;
+}
+
+@each $nombre, $color in $paises {
+    .#{$nombre} {
+        background: $color;        
+    }
+
+    }
+//mixin titulos y aplicacion de include
+@mixin titulos($align, $color, $fontTitle, $fondo_titulo){
+    text-align: $align;
+    color: $color;
+    font-family: $fontTitle;
+    background-color: $fondo_titulo;
+
+}
+
+.tituloPrincipal{
+    @include titulos(center, rgb(87, 16, 168), 'Helvetica', black)
+}
+

@@ -1,0 +1,54 @@
+//variables mixin
+
+$bg1:#7180d3;
+$color1:#131e83;
+$bg2:#d3d171;
+$color2:#3a3f0c;
+$bg3:#f585d9;
+$color3:#750f4e;
+
+
+@mixin estiloCaja ($color, $bg){
+    background-color: $bg;
+    color: $color;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+
+
+}
+
+.caja-1{
+    @include estiloCaja($color1,$bg2)
+}
+
+
+.caja-2{
+    @include estiloCaja($color3,$bg3)
+}
+
+.caja-3{
+    @include estiloCaja($color1,$bg2)
+}
+
+.caja-4{
+    @include estiloCaja($color2,$bg1)
+}
+
+.caja-5{
+    @include estiloCaja($color2,$bg2)
+}
+
+.caja-6{
+    @include estiloCaja($color3,$bg2)
+}
+
+//map
+
+$estilosdeLetras: (
+            fontTitle: "'Indie Flower', cursive"
+            fontText: "'Pacifico', cursive";
+            fontFooter: "'Saira', sans-serif";
+            
+)
